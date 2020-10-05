@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Introduction](./README.md)
+* [杂谈](./mixture/README.md)
+  * [剪力墙](./mixture/剪力墙.md)
+* [电脑及操作系统](./computer_and_OS/README.md)
+  * [20201022Windows系统重装](./computer_and_OS/20201022Windows系统重装.md)
+  * [git-and-gitbook](./computer_and_OS/git-and-gitbook.md)
+  * [Mac-bug及解决方案记录](./computer_and_OS/Mac-bug及解决方案记录.md)
+  * [markdown配置](./computer_and_OS/markdown配置.md)
+  * [VPN翻墙及配置](./computer_and_OS/VPN翻墙及配置.md)
+  * [VSCode工具使用及配置](./computer_and_OS/VSCode工具使用及配置.md)
+  * [本人Mac实用工具介绍](./computer_and_OS/本人Mac实用工具介绍.md)
+* [基础数理化](./README.md)
+  * [元素周期表](./基础数理化/元素周期表.md)

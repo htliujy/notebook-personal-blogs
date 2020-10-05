@@ -1,0 +1,38 @@
+{
+    "title": "switch-mode-power-supply",
+    "author": "Jack Lau",
+    "description": "开关电源设计笔记",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "我的GitHub": "https://github.com/htliujy"
+        }
+    },
+    "plugins": [
+        "anchors",
+        "github",
+        "mathjax",
+        "livereload"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/htliujy"
+        },
+        "fontsettings": {
+            "theme": "sepia",
+            "family": "serif",
+            "size":  1
+        }
+    }
+}
