@@ -3,7 +3,7 @@
 如何使用git。
 我比较喜欢的无非就3个命令（三板斧）：
 
-```bash
+```shell
 git add -A
 git commit -m ''
 git push
@@ -16,7 +16,7 @@ git push
 现在我要将主分支切回master，又很烦，若是保留默认的main，我的gitbook网站在关联仓库的时候，经常出错，一会儿可以，一会儿不可以的，烦死。
 现在我的办法是：先在github上建立一个空的仓库，然后在本地clone后（对，就是clone空的），最后再使用
 
-```bash
+```shell
 git checkout -b master
 git branch -d main
 ```
@@ -29,19 +29,19 @@ git branch -d main
 
 删除远程分支的语句如下（切记慎用、慎用、慎用）：
 
-```bash
+```shell
 git push origin --delete main
 ```
 
 ## git 回退历史版本
 
-```bash
+```shell
 git reset --hard [你的commit id]
 ```
 
 然后推到github上去
 
-```bash
+```shell
 git push -f -u origin master
 ```
 
@@ -49,7 +49,7 @@ git push -f -u origin master
 
 因为我强迫症发作，已有小改动就commit（还push了），导致我的commit log非常的多，需要合并一些不重要的commit，也就是删除一些中间过程记录，让仓库变得简洁些，用rebase命令，当我某个仓库中，我要合并当前commit之前的6次提交，那我就用：
 
-```bash
+```shell
 git rebase -i HEAD~6
 ```
 
@@ -80,7 +80,7 @@ s 53f244a   '注释**********'
 
 搞定后，就可以使用如下命令与远程同步：
 
-```bash
+```shell
 git push origin HEAD --force
 ```
 
@@ -103,10 +103,28 @@ git clone只能clone远程库的master分支，无法clone所有分支，解决�
 
 ## .gitignore不起作用怎么办
 
-有时候在项目开发过程中，突然心血来潮想把某些目录或文件加入忽略规则，按照上述方法定义后发现并未生效，原因是.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
+有时候在项目开发过程中，需要移除对一些文件的版本管理，但是添加.gitignore后，发现并未生效，原因是.gitignore只能忽略那些原来没有被track的文件，如果某些文件已经被纳入了版本管理中，则修改.gitignore是无效的。那么解决方法就是先把本地缓存删除（改变成未track状态），然后再提交：
 
-```bash
+```shell
 git rm -r --cached .
 git add .
 git commit -m 'update .gitignore'
+```
+
+## 远程仓库
+
+### 删除本地仓库当前关联的无效远程地址，再为本地仓库添加新的远程仓库地址
+
+```shell
+git remote -v //查看git对应的远程仓库地址
+git remote rm origin //删除关联对应的远程仓库地址
+git remote -v //查看是否删除成功，如果没有任何返回结果，表示OK
+git remote add origin https://github.com/developers-youcong/Metronic_Template.git //重新关联git远程仓库地址
+```
+
+### 修改 .git 配置文件
+
+```shell
+cd .git  //进入.git目录
+vim config  //修改config配置文件，快速找到remote "origin"下面的url并替换即可实现快速关联和修改
 ```

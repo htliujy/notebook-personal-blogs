@@ -34,7 +34,7 @@
 
 示例
 
-```bash
+```shell
 $(document).ready(function() {
   $('pre code').each(function(i, block) {
     hljs.highlightBlock(block);

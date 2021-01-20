@@ -15,13 +15,13 @@
 - 对于其他特殊通道，基本上都是靠google解决的，比如终端中有些场景需要使用VPN：[简书-Mac终端代理和git代理设置](https://www.jianshu.com/p/205aff65954a)
 比如我用git，我经常就用下面这个命令，确保push和pull走的是VPN通道，加快速度（同时，为了加快git clone的速度，我还用参数 <--depth>。
 
-    ```bash
+    ```shell
     export ALL_PROXY=socks5://127.0.0.1:1086
     ```
 
     恢复代码我也用的是这个，自己摸索的：
 
-    ```bash
+    ```shell
     export ALL_PROXY=
     ```
 
