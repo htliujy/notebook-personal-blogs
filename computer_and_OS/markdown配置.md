@@ -18,6 +18,24 @@ markdown初看起来非常简单，不过，有些东西配置起来还是挺琐
 
 - 将Excel表格等转换为Markdown的在线工具：[tableconvert](https://tableconvert.com/)
 
+另外，若是有行和列需要合并的，用colspan和rowspan这两个属性，语法：
+
+```html
+<table style="text-align:center">
+    <tr><td>列一</td> <td>列二</td> <td>列三</td><td>列四</td></tr>
+    <tr><td rowspan="2">列合并</td><td colspan="3">合并行</td></tr>
+    <tr><td colspan="3">合并行</td></tr>
+</table>
+```
+
+效果如下：
+
+<table style="text-align:center">
+    <tr><td>列一</td> <td>列二</td> <td>列三</td><td>列四</td></tr>
+    <tr><td rowspan="2">列合并</td><td colspan="3">合并行</td></tr>
+    <tr><td colspan="3">合并行</td></tr>
+</table>
+
 ## 字体
 
 一般需要用到不同字体及颜色，可以用html的方式，比如：
@@ -340,7 +358,7 @@ snippets如何配置，详情请查看微软官方的[Snippets in Visual Studio 
 编辑器字体大小设置：editor.fontSize:16（默认是14，我改成16）
 
 2020年10月18日
-忽然很想说脏话，因为我的VScode忽然挂了，不能正常解析我的math公式，我现在不知道出了什么问题，但若是要用Time Machine恢复我的电脑，我是拒绝的。
+VScode忽然挂了，不能正常解析math公式，不知道出了什么问题。
 Parse Error: KaTex Parse error: No such environment: align at position 7: \begin{aligned}
 可是，我的配置明明没有改，仍然使用的是：
 
@@ -350,21 +368,11 @@ Parse Error: KaTex Parse error: No such environment: align at position 7: \begin
 
 为什么最后帮忙解析的是KaTex，难道是忽然MathJax挂了，所以又调用了KaTex？，那为什么MathJax不报错？
 
-我看了一下，我的typora是正常的。
-
-不过说起来，我刚刚更新了typora，You’re up-to-date!Typora Beta 0.9.9.35.2 is currently the newest version available.
-
-难道这也有鬼？
-
-他妈的，找不到原因，可是，我本来计划好了，等过两个月，完整重装Macbook Pro的啊！因为可能我是一直没有重装过我的mac OS，我就觉得越来越乱，就想重装，你这样是逼我尽早重装？
-那也不能，我还是得坚持用typora多两个月（因为我找不到简单的解决办法），等吧！想就这样逼我，没门！
-
 20201019:
 
-我更加困惑了，因为，现在我发现不同的预览打开方式，得到的公式渲染相差太远.  
+困惑，因为，现在我发现不同的预览打开方式，得到的公式渲染相差太远.  
+"Cmd + K, V"这个快捷键和我用鼠标点右上角的preview，得到的结果是不同的，为何？
 
 [用vscode写markdown的正确姿势](https://blog.csdn.net/zyx_ly/article/details/89642315)
 :vscode默认是支持markdown的，只需要装一个预览插件神器：Markdown Preview Enhanced。
 安装完成之后，键盘输入"Ctrl + K, V"，即可调出预览视图。
-
-"Cmd + K, V"这个快捷键和我用鼠标点右上角的preview，得到的结果是不同的，他妈的。
