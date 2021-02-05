@@ -10,7 +10,7 @@
   * [markdown配置](./computer_and_OS/markdown配置.md)
   * [VPN翻墙及配置](./computer_and_OS/VPN翻墙及配置.md)
   * [VSCode工具使用及配置](./computer_and_OS/VSCode工具使用及配置.md)
-  * [本人Mac实用工具介绍](./computer_and_OS/本人Mac实用工具介绍.md)
+  * [Mac实用工具介绍](./computer_and_OS/Mac实用工具介绍.md)
 * [基础数理化](./基础数理化/README.md)
   * [元素周期表](./基础数理化/元素周期表.md)
 * [IT资讯](./IT资讯/README.md)

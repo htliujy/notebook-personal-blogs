@@ -1,4 +1,4 @@
-# 本人Mac实用工具介绍
+# Mac实用工具介绍
 
 这里记录一些自己喜欢的工具，及其下载链接。
 
@@ -17,7 +17,7 @@
 快速查看CPU状态，关闭Turbo功能，在电池状态下能较大提高续航时间，经体验，并没有明显的速度降低（因为平常没有负载很重的软件在跑）。因此，没接适配器时，建议关闭CPU的Turbo功能。
 
 <div  align="center">
-<img src="./本人Mac实用工具介绍/Turbo Boost Switcher.png" width = "50%" height = "50%" alt="Turbo Boost Switcher截图" align=center />
+<img src="./Mac实用工具介绍/Turbo Boost Switcher.png" width = "50%" height = "50%" alt="Turbo Boost Switcher截图" align=center />
 </div>
 
 ## CheatSheet
@@ -50,7 +50,7 @@
 如下图，原来dictionary是可以发音的，添加的字典及其例句有带就可以。
 
 <div  align="center">
-<img src="./本人Mac实用工具介绍/牛津字典.png" width = "80%" height = "80%" alt="dictionary中添加牛津字典" align=center />
+<img src="./Mac实用工具介绍/牛津字典.png" width = "80%" height = "80%" alt="dictionary中添加牛津字典" align=center />
 </div>
 
 ## FileZilla
@@ -82,7 +82,7 @@ Latex编辑器，不过我也不写论文，好像不需要。
 串口调试助手，硬件开发者需要，正好我需要。
 
 <div  align="center">
-<img src="./本人Mac实用工具介绍/COMTool_串口调试助手.png" width = "80%" height = "80%" alt="串口调试助手" align=center />
+<img src="./Mac实用工具介绍/COMTool_串口调试助手.png" width = "80%" height = "80%" alt="串口调试助手" align=center />
 </div>
 
 ## Labiew
@@ -134,7 +134,7 @@ markdown编辑工具，同时支持导出到pdf
 如下是我Launchpad截图:
 
 <div  align="center">
-<img src="./本人Mac实用工具介绍/LaunchPad.png" width = "100%" height = "100%" alt="Launchpad截图" align=center />
+<img src="./Mac实用工具介绍/LaunchPad.png" width = "100%" height = "100%" alt="Launchpad截图" align=center />
 </div>
 
 ## DuplicateFileFinderMac
