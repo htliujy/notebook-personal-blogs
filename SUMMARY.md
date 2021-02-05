@@ -11,6 +11,7 @@
   * [VPN翻墙及配置](./computer_and_OS/VPN翻墙及配置.md)
   * [VSCode工具使用及配置](./computer_and_OS/VSCode工具使用及配置.md)
   * [Mac实用工具介绍](./computer_and_OS/Mac实用工具介绍.md)
+  * [iPhone备份到移动硬盘](./computer_and_OS/iPhone备份到移动硬盘.md)
 * [基础数理化](./基础数理化/README.md)
   * [元素周期表](./基础数理化/元素周期表.md)
 * [IT资讯](./IT资讯/README.md)
