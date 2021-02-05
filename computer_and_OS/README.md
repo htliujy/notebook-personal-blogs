@@ -7,3 +7,6 @@
 - 电脑硬件，大型计算机，微型计算机
 - CPU，GPU，不同芯片架构
 - 等等
+
+- markdown 练习甘特图<https://www.runoob.com/markdown/md-advance.html>
+
