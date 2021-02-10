@@ -27,3 +27,9 @@
 
 - 比如google的文件同步工具‘backup and sync from google’，也是需要使用特殊的方法，让其走VPN通道，才可以正常同步（今日20201006，因为几年没使用这个软件，已经忘了怎么配置了，后面的都是我刚刚去百度，且未验证的）。
 配置方法如：[Google Drive登录时遇到问题，怎么解决？](https://www.zhihu.com/question/62318694)
+
+## Liber网站上的配置
+
+网址：<www.liber.plus>
+
+订阅信息链接：<https://liber.plus/modules/servers/V2RaySocks/subscribe/surge.php?sid=4611&token=12345461>
