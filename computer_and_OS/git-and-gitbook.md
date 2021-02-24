@@ -128,3 +128,48 @@ git remote add origin https://github.com/developers-youcong/Metronic_Template.gi
 cd .git  //进入.git目录
 vim config  //修改config配置文件，快速找到remote "origin"下面的url并替换即可实现快速关联和修改
 ```
+
+## github 提速
+
+因为github的CDN域名污染<sup>[1]</sup>，在host中写入github相关的IP，加速资源上传下载。
+
+### 查询IP地址
+
+查询<www.ipaddress.com>得到：
+
+1. <https://github.com/>
+   - 140.82.113.3
+2. <https://assets-cdn.github.com/>
+   - 185.199.108.153
+   - 185.199.109.153
+   - 185.199.110.153
+   - 185.199.111.153
+3. <http://global.ssl.fastly.net/>
+   - 199.232.68.249
+4. <codeload.github.com>
+   - 140.82.113.10
+
+### 写入host
+
+以如下格式写入host<C:\Windows\System32\drivers\etc>
+
+```text
+140.82.113.3：github.com
+185.199.110.153：assets-cdn.github.com
+140.82.114.9：codeload.github.com
+199.232.68.249：global.ssl.fastly.net
+```
+
+### 刷新 DNS 缓存
+
+打开命令行（cmd）界面。输入 ipconfig/flushdns 刷新 DNS 缓存即可。
+
+若是后续变慢了，仍然可以使用这个方法，更新IP。
+
+### clone项目
+
+20210224实测结果，变慢了。从70kB/s降低到15kB/s。
+
+参考及引用：
+
+[1] 我的 GitHub 起飞了！-<https://blog.csdn.net/weixin_47080540/article/details/113840504>
