@@ -164,11 +164,28 @@ vim config  //修改config配置文件，快速找到remote "origin"下面的url
 
 打开命令行（cmd）界面。输入 ipconfig/flushdns 刷新 DNS 缓存即可。
 
-若是后续变慢了，仍然可以使用这个方法，更新IP。
+若是后续变慢了，仍然可以使用这个方法，查询并更新IP。
 
 ### clone项目
 
-20210224实测结果，变慢了。从70kB/s降低到15kB/s。
+20210224实测结果，变快了。从70kB/s提高到1MB/s+。
+
+从如下的错误：
+
+```shell
+fatal: the remote end hung up unexpectedlyiB | 22.00 KiB/s
+fatal: early EOF
+fatal: index-pack failed
+```
+
+变成了下载成功：
+
+```shell
+remote: Total 4480 (delta 0), reused 0 (delta 0), pack-reused 4480
+Receiving objects: 100% (4480/4480), 40.10 MiB | 1.35 MiB/s, done.
+Resolving deltas: 100% (2935/2935), done.
+Updating files: 100% (1491/1491), done.
+```
 
 参考及引用：
 
