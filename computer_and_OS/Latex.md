@@ -4,6 +4,12 @@
 
 LaTeX（/ˈlɑːtɛks/，常被讀作/ˈlɑːtɛk/或/ˈleɪtɛk/），是一种基于TEX的排版系统，由美国计算机科学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式系統的處理，即使使用者没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，不必一一親自去設計或校對，能在几天，甚至几小时内生成很多具有书籍品質的印刷品。对于生成复杂表格和**数学**公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和**数学、物理**文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
 
+## LaTeX编辑编译环境
+
+我都是用的VSCode加插件，网上有很多相关教程，简单易懂，比如[使用VSCode编写LaTeX](https://zhuanlan.zhihu.com/p/38178015)<sup>[4]</sup>，这里就不再赘述。
+
+## LaTeX公式
+
 LaTeX公式示例(安培环路定理)，源码：
 
 ```LaTeX
@@ -78,3 +84,4 @@ Then, press the Space key to preview the screenshot. Or, press the Return or Ent
 [1] LATEX <https://zh.wikipedia.org/wiki/LaTeX>
 [2] 公式免费转 LaTex 代码，截图、转换一气呵成，每月 1000 次全免费<https://cloud.tencent.com/developer/news/486610>
 [3] img2latex-mathpix <https://github.com/blaisewang/img2latex-mathpix>
+[4] 使用VSCode编写LaTeX <https://zhuanlan.zhihu.com/p/38178015>
