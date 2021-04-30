@@ -133,6 +133,8 @@ vim config  //修改config配置文件，快速找到remote "origin"下面的url
 
 因为github的CDN域名污染<sup>[1]</sup>，在host中写入github相关的IP，加速资源上传下载。
 
+或者使用自有的翻墙工具，Windows git和cmd代理设置<sup>[2]</sup>，既可以使用临时的，也可以在配置文件中写入永久代理。
+
 ### 查询IP地址
 
 查询<www.ipaddress.com>得到：
@@ -190,3 +192,4 @@ Updating files: 100% (1491/1491), done.
 参考及引用：
 
 [1] 我的 GitHub 起飞了！-<https://blog.csdn.net/weixin_47080540/article/details/113840504>
+[2] Windows git和cmd代理设置 - <https://www.jianshu.com/p/b9047a59ffc9>
