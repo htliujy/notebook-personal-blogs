@@ -135,6 +135,38 @@ vim config  //修改config配置文件，快速找到remote "origin"下面的url
 
 或者使用自有的翻墙工具，Windows git和cmd代理设置<sup>[2]</sup>，既可以使用临时的，也可以在配置文件中写入永久代理。
 
+方法一：临时代理
+
+```shell
+export http_proxy=http://127.0.0.1:7777
+export https_proxy=http://127.0.0.1:7777
+#Mac OS下有效，但似乎Windows下没有作用
+```
+
+方法二：永久代理
+
+修改配置文件方式
+进入用户名根路径，找到 .gitconfig 文件，修改(地址和端口换成自己的)为：
+
+```shell
+[http]
+proxy = http://127.0.0.1:7777
+[https]
+proxy = http://127.0.0.1:7777
+```
+
+Windows下亲测有效：
+
+其他没有试过的方法：
+
+```shell
+#命令方式：
+git config --global http.proxy http://127.0.0.1:7777
+git config --global https.proxy http://127.0.0.1:7777
+```
+
+以及上面几总方法对应的SOCKS5代理设置办法，这里不再赘述，因为暂时用不到。
+
 ### 查询IP地址
 
 查询<www.ipaddress.com>得到：
