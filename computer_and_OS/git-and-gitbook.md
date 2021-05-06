@@ -84,6 +84,21 @@ s 53f244a   '注释**********'
 git push origin HEAD --force
 ```
 
+## git远程仓强制覆盖本地仓库
+
+如上文中（`git push origin HEAD --force`），远程仓库被强制更改后，需要用该版本覆盖其他的本地仓库，那也需要使用强制覆盖<sup>[3]</sup>。
+
+```shell
+# 拉取所有更新，不同步；
+git fetch --all
+
+# 本地代码同步线上最新版本(会覆盖本地所有与远程仓库上同名的文件)；
+git reset --hard origin/master
+
+# 再更新一次（其实也可以不用，第二步命令做过了其实）
+git pull
+```
+
 ## git如何clone所有的远程分支
 
 复制自CSDN——[git如何clone所有的远程分支](https://blog.csdn.net/yuanchao99/article/details/39118439)
@@ -225,3 +240,4 @@ Updating files: 100% (1491/1491), done.
 
 [1] 我的 GitHub 起飞了！-<https://blog.csdn.net/weixin_47080540/article/details/113840504>
 [2] Windows git和cmd代理设置 - <https://www.jianshu.com/p/b9047a59ffc9>
+[3] git远程仓强制覆盖本地仓 - <https://www.codenong.com/cs109673933/>
