@@ -11,14 +11,20 @@
 
 ## 快捷键
 
-| 快捷键       | 功能     |
-| ------------ | -------- |
-| ctrl+shift+k | 删除整行 |
+| 快捷键               | 功能            |
+| -------------------- | --------------- |
+| ctrl+shift+k         | 删除整行        |
+| fn + control + space | trigger suggest |
 
-代码格式化：
+代码格式化：  
 On Windows 　　Shift + Alt + F
 On Mac 　　Shift + Option + F
 On Ubuntu　　 Ctrl + Shift + I
+
+代码提示：  
+正常： Ctrl + Space，但这个在mac上被系统占用了
+替代：fn + control + space
+也可以自己设置，Code > Preferences > Keyboard Shortcuts, Search for "Trigger Suggest". The default value is ⌃Space.
 
 ## 设置
 
