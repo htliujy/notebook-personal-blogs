@@ -39,4 +39,8 @@
 然后用a、b、C、
 用a）、b）、c）、
 
-git出问题，测试
+## 资源
+
+### 书籍
+
+- Library Genesis
