@@ -3,7 +3,7 @@
 [极客湾移动芯片性能排行榜](https://www.socpk.com/)
 
 <div  align="center">
-<img src="./移动CPU综合性能天梯图/移动芯片综合天梯图.jpeg" width = "100%" height = "100%" alt="移动芯片综合天梯图" align=center />
+<img src="./.assets/移动CPU综合性能天梯图/移动芯片综合天梯图.jpeg" width = "100%" height = "100%" alt="移动芯片综合天梯图" align=center />
 </div>
 
 这个排行榜让人很尴尬，看来只有拼了老命，才能让自己很优雅啊！为什么这么说？因为只有苹果的芯片，设计得最好，常年霸占榜首，才能那么从容优雅地给自己起名字，A7-A14，一路走过去。

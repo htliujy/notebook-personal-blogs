@@ -35,7 +35,7 @@ Image2LaTeX：就是一个类似Mathpix Snipping Tool的工具，它的作用就
 使用效果（在百度百科上截图安培环路定理的公式）：
 
 <div  align="center">
-<img src="./LaTeX/Image2LaTeX.png" width = "50%" height = "50%" alt="Image2LaTeX" align=center />
+<img src="./.assets/LaTeX/Image2LaTeX.png" width = "50%" height = "50%" alt="Image2LaTeX" align=center />
 </div>
 
 ### Image2LaTeX下载安装
