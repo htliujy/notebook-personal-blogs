@@ -39,6 +39,13 @@ git push origin --delete main
 git reset --hard [你的commit id]
 ```
 
+还可以用如下指令
+
+```
+git reset --hard HEAD^         # 回退到上个版本
+git reset --hard HEAD~3        # 回退到前3次提交之前，以此类推，回退到n次提交之前
+```
+
 然后推到github上去
 
 ```shell
