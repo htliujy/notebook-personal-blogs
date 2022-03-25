@@ -45,6 +45,22 @@ git reset --hard [你的commit id]
 git push -f -u origin master
 ```
 
+疑问：git 回退后要重新往前到未来的某个版本，如何？
+
+还是有办法的，继续用上面的操做：
+
+```shell
+git reset --hard [未来的commit id]
+```
+
+但问题是，我们找不到这个未来的commit id了，至少用`git log`命令是找不到了，那得用其他的查询方式：
+
+```shell
+git reflog
+```
+
+就可以找到未来的（回退前的）某个 commit id了。
+
 ## commit合并
 
 因为我强迫症发作，已有小改动就commit（还push了），导致我的commit log非常的多，需要合并一些不重要的commit，也就是删除一些中间过程记录，让仓库变得简洁些，用rebase命令，当我某个仓库中，我要合并当前commit之前的6次提交，那我就用：
