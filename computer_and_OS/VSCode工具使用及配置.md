@@ -29,3 +29,4 @@ On Ubuntu　　 Ctrl + Shift + I
 ## 设置
 
 1. 自动识别编码：`files.autoGuessEncoding`;
+2. 窗口放大（字体、布局）：`"window.zoomLevel": 1`;
