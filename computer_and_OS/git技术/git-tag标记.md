@@ -75,4 +75,16 @@ git checkout -b
 
 命令git checkout [tagname] 切换标签。
 
+## 多次提交后给某个commit添加tag
+
+本文转载自：[如何在多次提交后给某个commit添加tag](https://blog.csdn.net/benben_2015/article/details/83502153)
+
+比如你准备以某条commit内容为基准，发布版本。但是你却忘记对其添加tag，这时有两种方法。第一种是版本回退，然后以需要的commit内容为基础，发布版本。这种做法不太推荐，它会丢弃你之后的开发工作，不太推荐。另外一种方法就是今天推荐的。
+
+具体方法
+使用git log查看提交日志，找出你需要的那个commit。假设提交的commit id为“928a92a123456b126eb1234567c210ab8f1234e9d”。
+使用git checkout <commit id>，例如git checkout 928a92a123456b126eb1234567c210ab8f1234e9d。这条命令会将你的本地工程切回到某次提交记录上。
+使用git tag进行打标签，例如：git tag v1.0.1。
+然后将本地的git标签提交到远程仓库上，git push origin v1.0.1。
+
 ## 参考及引用

@@ -18,7 +18,19 @@
   - star和watch的区别在于前者不会把项目的动态展示在你的dashboard 里，仅作为收藏功能；
   - 不是非常感兴趣的不要watch，太多邮件，神烦。
 
-picture
+## 如何在github上用VScode进行浏览
+
+比如查看git仓库的连接<https://github.com/htliujy/Python-100-Days>
+
+<div  align="center">
+<img src="./.assets/github使用技巧/以原生界面打开GitHub仓库.png" width = "100%" height = "100%" alt="图片" align=center />
+</div>
+
+在`github`后面添加`1s`, 改链接为<https://github1s.com/htliujy/Python-100-Days>即可。
+
+<div  align="center">
+<img src="./.assets/github使用技巧/以VScode界面打开GitHub仓库.png" width = "100%" height = "100%" alt="图片" align=center />
+</div>
 
 ## 参考及引用
 
