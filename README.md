@@ -39,6 +39,8 @@
 然后用a、b、C、
 用a）、b）、c）、
 
+如何画图 FOM: Figure of Merit.
+
 ## 资源
 
 ### 书籍
