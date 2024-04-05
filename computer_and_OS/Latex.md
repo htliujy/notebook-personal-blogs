@@ -102,9 +102,14 @@ $$u(t) = K_pe(t) + K_i\int_{0}^{t}e(\tau)d\tau + K_d\frac{d}{dt}e(t)$$
 
 结论：解析完全正确。
 
+## 用SimpleTex
+
+这个软件暂时看起来是免费的，也很好用。<sup>[5]</sup>
+
 ## 参考及引用
 
 [1] LATEX <https://zh.wikipedia.org/wiki/LaTeX>
 [2] 公式免费转 LaTex 代码，截图、转换一气呵成，每月 1000 次全免费<https://cloud.tencent.com/developer/news/486610>
 [3] img2latex-mathpix <https://github.com/blaisewang/img2latex-mathpix>
 [4] 使用VSCode编写LaTeX <https://zhuanlan.zhihu.com/p/38178015>
+[5] <https://simpletex.cn/>
