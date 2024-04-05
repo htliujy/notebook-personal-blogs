@@ -53,7 +53,7 @@ Image2LaTeX：就是一个类似Mathpix Snipping Tool的工具，它的作用就
 - 根据指引，新建API Keys
 
 注意：  
-新建MathpixOCR API Key，需要有信用卡，我用了广发VISA的，首次扣费1美元，且不退回（这没有问题），但他们的条款看起来消费是上不封顶的（按次计费）。感觉若是泄漏了API key，后患无穷！
+新建MathpixOCR API Key，需要有信用卡，首次扣费1美元，且不退回（这没有问题），但他们的条款看起来消费是上不封顶的（按次计费）。感觉若是泄漏了API key，后患无穷！
 
 条款如下：
 
@@ -79,7 +79,30 @@ Use your operating system's default methods (or other tools) to take a screensho
 
 Then, press the Space key to preview the screenshot. Or, press the Return or Enter key to send the OCR request directly.
 
-参考及引用：
+## 使用生成式AI
+
+使用下面的图片，通过POE渠道调用Claude-3-Sonnet，调用文本和图片如下：
+
+convert the equation in the image to Latex：
+<div  align="center">
+<img src="./.assets/LaTeX/latex_test_GenAI.png" width = "50%" height = "50%" alt="Image2LaTeX" align=center />
+</div>
+
+得到反馈如下
+
+```text
+The equation in the image can be represented in LaTeX as:
+
+$u(t) = K_pe(t) + K_i\int_{0}^{t}e(\tau)d\tau + K_d\frac{d}{dt}e(t)$
+```
+
+将公式放置到markdown渲染，将会得到：
+
+$$u(t) = K_pe(t) + K_i\int_{0}^{t}e(\tau)d\tau + K_d\frac{d}{dt}e(t)$$
+
+结论：解析完全正确。
+
+## 参考及引用
 
 [1] LATEX <https://zh.wikipedia.org/wiki/LaTeX>
 [2] 公式免费转 LaTex 代码，截图、转换一气呵成，每月 1000 次全免费<https://cloud.tencent.com/developer/news/486610>
