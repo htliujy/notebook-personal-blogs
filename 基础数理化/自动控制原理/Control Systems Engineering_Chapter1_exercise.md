@@ -180,6 +180,165 @@ $$-4a + 3 bi = 0 \implies bi = -\dfrac{8}{15}$$
 
 $$x = e^{-4t}[-\dfrac{2}{5}cos(3t) -\dfrac{8}{15}sin(3t)] + \dfrac{2}{5}$$
 
+21、解方程
+
+a.
+
+$$\dfrac{d^{2}x}{dt^{2}}+2\dfrac{dx}{dt}+2x=\sin2t$$
+$$x(0)=2;\dfrac{dx}{dt}(0)=-3$$
+
+解：假设特解为：
+
+$$x_p = Acos(2t) + Bsin(2t)$$
+
+那么有$x'_p = -2Asin(2t) + 2Bcos(2t)$, $x''_t = -4A cos(2t) -4B sin(2t)$，带入原方程，得到：
+
+$$[-4A cos(2t) -4B sin(2t)] +2 [-2Asin(2t) + 2Bcos(2t)] + 2[Acos(2t) + Bsin(2t)] = sin(2t)$$
+
+得到
+
+$$sin(2t)(-4B -4A+ 2B) = sin(2t) \implies -2B - 4A = 1$$
+
+同理，得到：
+
+$$(4B -2A= 0)$$
+
+求得：$A = -\dfrac{1}{5}$,$B = -\dfrac{1}{10}$，代入设定特解方程，得到：
+
+$$x_p = -\dfrac{1}{5}cos(2t) -\dfrac{1}{10}sin(2t)$$
+
+求齐次方程的通解，设为
+
+$$x_h = C' e^{\lambda t}$$
+
+其特征方程为：
+
+$$\lambda ^2 +2 \lambda + 2 =0$$
+
+解得$\lambda = -1 ± i$, 因此：
+
+$$x_h = e^{-t}[Ccos(t)+Dsin(t)]$$
+
+$$
+\begin{aligned}
+x &= x_p + x_h \\
+&= -\dfrac{1}{5}cos(2t) -\dfrac{1}{10}sin(2t) + e^{-t}[Ccos(t)+Dsin(t)]
+\end{aligned}
+$$
+
+再根据初始条件，可得：
+
+$$-\dfrac{1}{5} + C = 2 \implies C = \dfrac{11}{5}$$
+
+$$-\dfrac{1}{5} + (-C +D)= -3 \implies D = -\dfrac{15}{5} + \dfrac{1}{5} +\dfrac{11}{5} = -\dfrac{3}{5}$$
+
+最终解为：
+
+$$x = -\dfrac{1}{5}cos(2t) -\dfrac{1}{10}sin(2t) + e^{-t}[\dfrac{11}{5}cos(t)-\dfrac{3}{5}sin(t)]$$
+
+b.
+
+$$\dfrac{d^{2}x}{dt^{2}}+2\dfrac{dx}{dt}+x=5e^{-2t}+t$$
+
+$$x(0)=2;\dfrac{dx}{dt}(0)=1$$
+
+解答：
+
+假设特解的形式为：
+
+$$x_p =Ae^{-2t} + Bt + C$$
+
+那么有$x' = -2Ae^{-2t} + B$, $x'' = 4Ae^{-2t}$，带入原方程，有：
+
+$$4Ae^{-2t} + 2(-2Ae^{-2t} + B) + Ae^{-2t} + Bt + C = 5e^{-2t}+t$$
+
+得到：
+
+$$e^{-2t}(4A -4A+A) = 5e^{-2t}$$
+
+$$2B + C = 0$$
+
+$$Bt = t$$
+
+得到$A = 5$, $B = 1$, $C = -2$.
+
+特征方程为：
+
+$$\lambda ^2 +2 \lambda + 1 = 0$$
+
+解得：$lambda = -1$，重根。
+
+那么对应的解为:
+
+$$x_h = (Dt + E)e^{-t}$$
+
+因此，又：
+
+$$
+\begin{aligned}
+x &= x_p + x_h\\
+&=(Dt + E)e^{-t} + Ae^{-2t} + Bt + C\\
+&=Dte^{-t} + Ee^{-t}+ 5e^{-2t} + t -2
+\end{aligned}
+$$
+
+将初始条件$x(0)=2;\dfrac{dx}{dt}(0)=1$代入，得到：
+
+$$x(0) = E + 5 -2 = 2 \implies E = -1$$
+
+$$
+\begin{aligned}
+\dfrac{dx}{dt}(0) &= De^{-t} -Dte^{-t} -Ee^{-t} -10e^{-2t} + 1 \\
+&= D -E - 10 + 1\\
+&= 1
+\end{aligned}
+$$
+
+得到 $$D = 9$$, 将D，E的值带入，得到最终解：
+
+$$x(t) = 9te^{-t} - e^{-t}+ 5e^{-2t} + t -2$$
+
+c.
+
+$$\frac{d^{2}x}{dt^{2}}+4x=t^{2}$$
+
+$$x(0)=1;\frac{dx}{dt}(0)=2$$
+
+解答
+
+假设特解的形式为$x = At^2 + Bt + C$，有$x' = 2At + B$,$x''= 2A$，那么：
+
+$$2A + 4(At^2 + Bt + C) = t^2$$
+
+得到$A= \frac{1}{4}$, $B = 0$, $C = -\frac{1}{8}$
+
+对应齐次方程的特征方程为：$\lambda ^2 + 4 = 0$
+
+解得$\lambda = ±2i$
+
+那么对应齐次方程的通解为：
+
+$$x_h = Dsin(2t) + E cos(2t)$$
+
+$$
+\begin{aligned}
+x &= x_p+ x_h\\
+&= \frac{1}{4}t^2 -\frac{1}{8} + Dsin(2t) + E cos(2t)
+\end{aligned}
+$$
+
+根据初始条件$x(0)=1;\frac{dx}{dt}(0)=2$
+
+可以得到：
+
+$$-\frac{1}{8} + E = 1 \implies E = \frac{9}{8}$$
+
+$$2D = 2 \implies D = 1$$
+
+将D，E的值带入x的解，最终得到：
+
+$$x(t) = \frac{1}{4}t^2 -\frac{1}{8} + sin(2t) + \frac{9}{8}cos(2t)$$
+
 ## 参考及引用
 
 [1] Control Systems Engineering 7th Ed - Nise.
