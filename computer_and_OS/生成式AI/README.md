@@ -12,10 +12,17 @@
 3. gemini
 4. Copilot
    1. Github Copilot 和copilot是不一样的。
+5. Llama: Large Language Model Meta AI, Meta发布的大语言模型。
+   1. Code Llama如何使用？
+6. Grok
+
+另外Groq是做AI芯片的？跟Nvidia是一类的。不可跟Grok混淆。
 
 ## 如何使用
 
 当前先使用免费的POE吧！等之后觉得不够用了，再购买收费版本的POE或者ChatGPT。——2024年04月04日
+
+Global GPT: 网页连接都是使用的私有证书，看起来不像正规公司。
 
 ## 参考及引用
 
