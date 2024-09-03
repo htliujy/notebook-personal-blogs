@@ -18,6 +18,38 @@
 
 另外Groq是做AI芯片的？跟Nvidia是一类的。不可跟Grok混淆。
 
+## 数学AI工具
+
+参考<https://aimojo.io/zh-CN/ai-math-tools/>
+
+1. Socratic
+   1. google的
+2. Photomath
+3. MathGPTPro
+   1. 专注于高级数学，人工智能指导，用户友好
+4. Mathway
+5. Wolfram Alpha
+6. Symbolab
+7. Microsoft Math Solver
+   1. 免费、多种方法、额外的学习资源
+8. 鹰爪
+
+## 编程
+
+1. Copilot
+   1. 如何在windows中使用copilot?<https://blog.csdn.net/qq_52475653/article/details/134486565>
+   2. 如何在office中使用copilot？
+   3. 如何在vscode中使用copilot？github Copilot
+
+### github Copilot使用
+
+<https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code>
+
+其他：
+
+1. Bito
+   1. 免费，但技术看起来不太行：实测system verilog，但github copilot 在 system verilog 方面好像还要更差。
+
 ## 如何使用
 
 当前先使用免费的POE吧！等之后觉得不够用了，再购买收费版本的POE或者ChatGPT。——2024年04月04日
