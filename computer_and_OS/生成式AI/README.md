@@ -18,6 +18,15 @@
 
 另外Groq是做AI芯片的？跟Nvidia是一类的。不可跟Grok混淆。
 
+## 通过第三方渠道调用
+
+POE
+
+如何在VS code中使用POE呢？
+
+使用python 调用API: [用 Poe-API-wrapper 连接 DALLE、ChatGPT，批量完成AI绘图或文字创作](https://zhuanlan.zhihu.com/p/677595969)
+
+
 ## 数学AI工具
 
 参考<https://aimojo.io/zh-CN/ai-math-tools/>
@@ -40,6 +49,15 @@
    1. 如何在windows中使用copilot?<https://blog.csdn.net/qq_52475653/article/details/134486565>
    2. 如何在office中使用copilot？
    3. 如何在vscode中使用copilot？github Copilot
+
+比较了几款，单纯就system verilog而言，Claude-3.5-Sonnet是比较好的，其他的几款是：
+
+1. Bito
+2. github Copilot
+3. Claude-3-Opus:POE
+4. Coding-Ai-1:POE
+
+这几款可以说是卧龙凤雏，如果一定要分高下，那Claude-3-Opus稍微好点。
 
 ### github Copilot使用
 
