@@ -26,7 +26,6 @@ POE
 
 使用python 调用API: [用 Poe-API-wrapper 连接 DALLE、ChatGPT，批量完成AI绘图或文字创作](https://zhuanlan.zhihu.com/p/677595969)
 
-
 ## 数学AI工具
 
 参考<https://aimojo.io/zh-CN/ai-math-tools/>
@@ -48,7 +47,11 @@ POE
 1. Copilot
    1. 如何在windows中使用copilot?<https://blog.csdn.net/qq_52475653/article/details/134486565>
    2. 如何在office中使用copilot？
-   3. 如何在vscode中使用copilot？github Copilot
+      1. office 365？
+   3. 如何在vscode中使用copilot？
+      1. github Copilot
+      2. 100美元/月
+2. cursor
 
 比较了几款，单纯就system verilog而言，Claude-3.5-Sonnet是比较好的，其他的几款是：
 
@@ -58,6 +61,12 @@ POE
 4. Coding-Ai-1:POE
 
 这几款可以说是卧龙凤雏，如果一定要分高下，那Claude-3-Opus稍微好点。
+
+## Office相关内容
+
+PPT, Word, Excel, PowerPoint, OneNote, Outlook, 甚至PDF相关操作。
+
+[手把手教你如何用ChatGPT轻松制作PPT](https://zhuanlan.zhihu.com/p/618917419)
 
 ### github Copilot使用
 
