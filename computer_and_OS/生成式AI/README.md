@@ -62,12 +62,6 @@ POE
 
 这几款可以说是卧龙凤雏，如果一定要分高下，那Claude-3-Opus稍微好点。
 
-## Office相关内容
-
-PPT, Word, Excel, PowerPoint, OneNote, Outlook, 甚至PDF相关操作。
-
-[手把手教你如何用ChatGPT轻松制作PPT](https://zhuanlan.zhihu.com/p/618917419)
-
 ### github Copilot使用
 
 <https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code>
@@ -76,6 +70,12 @@ PPT, Word, Excel, PowerPoint, OneNote, Outlook, 甚至PDF相关操作。
 
 1. Bito
    1. 免费，但技术看起来不太行：实测system verilog，但github copilot 在 system verilog 方面好像还要更差。
+
+## Office相关内容
+
+PPT, Word, Excel, PowerPoint, OneNote, Outlook, 甚至PDF相关操作。
+
+[手把手教你如何用ChatGPT轻松制作PPT](https://zhuanlan.zhihu.com/p/618917419)
 
 ## 如何使用
 
